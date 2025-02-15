@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background: url(output-onlinegiftools.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1300px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: url(light.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    border-bottom: 2px solid white;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 2px;
+    margin-left: 70px;
+    background-color: 1a1a1a;
+    padding: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.login {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.sidebar {
+    width: 20%;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.module {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #262626;
+    border-radius: 5px;
+}
+
+.products {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product-card {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    box-shadow: rgba(70, 60, 60, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #00b4d8;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0096c7;
+}
+.hight{
+    height: 700px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
